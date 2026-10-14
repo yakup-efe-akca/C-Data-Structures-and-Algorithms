@@ -33,12 +33,14 @@ Run:
 
 ## Example Output
 
+```text
 1
 0
 10 -> 30 -> NULL
 30 -> NULL
 NULL
 That value does not exist.
+```
 
 ## What I Learned
 
