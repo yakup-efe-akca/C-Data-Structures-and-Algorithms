@@ -44,3 +44,28 @@ Input: ((()))  -> 1
 Input: (()     -> 0
 Input: )       -> 0
 ```
+--------------------------------------------------------------------------------------
+
+## Minimum Stack
+
+An extended stack implementation that supports finding the minimum element in O(1) time.
+
+### Features
+- Push elements
+- Pop elements
+- Find the minimum element in O(1) time
+- Track minimum values using an auxiliary array
+
+### How to Run
+
+```bash
+clang MinStack.c -o MinStack
+./MinStack
+```
+
+### Example Output
+
+```text
+Minimum: 2
+Minimum after pop: 3
+```
