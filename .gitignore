@@ -1,0 +1,14 @@
+# macOS dosyalari
+.DS_Store
+
+# Derleme ve hata ayiklama ciktilari
+*.o
+*.out
+*.dSYM/
+
+# Uzantisiz derlenmis programlar
+LinkedList/LinkedList
+Stack/Stack
+Queue/Queue
+Queue/CircularQueue
+Recursion/NQueens
