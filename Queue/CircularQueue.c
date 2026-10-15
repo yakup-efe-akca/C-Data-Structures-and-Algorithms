@@ -27,6 +27,14 @@ int dequeue(struct CircularQueue *q) {
     return temp;
 }
 
+void reverseQueue(struct CircularQueue *q)
+{
+    if (q->count == 0) return;
+    int dequeuValue = dequeue(q);
+    reverseQueue(q);
+    enqueue(q, dequeuValue);
+}
+
 int peek(struct CircularQueue *q) {
     if (q->count == 0)
     {
@@ -79,6 +87,10 @@ int main(void)
     printQueue(&q);
 
     printf("Front: %d\n", peek(&q));
+
+    printQueue(&q);
+    reverseQueue(&q);
+    printQueue(&q);
 
     return 0;
 }
